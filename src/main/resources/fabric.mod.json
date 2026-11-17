@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "buildingtools",
+  "version": "${version}",
+  "name": "Advanced Building Tools",
+  "description": "Powerful creative building tools: Ghost blocks, Building Wand with 20+ shapes, searchable block picker (including modded blocks), infinite reach, measuring tape, and more. Made for 1.20.1.",
+  "authors": [
+    "You"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/buildingtools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.buildingtools.BuildingTools"
+    ],
+    "client": [
+      "com.example.buildingtools.client.BuildingToolsClient"
+    ]
+  },
+  "mixins": [
+    "buildingtools.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

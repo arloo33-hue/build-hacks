@@ -1,0 +1,13 @@
+{
+  "item.buildingtools.building_wand": "Building Wand",
+  "item.buildingtools.ghost_tool": "Ghost Tool",
+  "item.buildingtools.measuring_tape": "Measuring Tape",
+  "item.buildingtools.copy_paste_tool": "Copy & Paste Tool",
+  "item.buildingtools.trap_launcher": "Trap Launcher",
+
+  "itemGroup.buildingtools.main": "Advanced Building Tools",
+
+  "key.buildingtools.block_picker": "Open Block Picker",
+  "key.buildingtools.shape_menu": "Open Shape Menu",
+  "category.buildingtools": "Advanced Building Tools"
+}
